@@ -46,7 +46,7 @@ function miniMaxSum(array) {
 
 		for(var index = 0; index < choose; index++) {
 
-			sum += combinations[index];
+			sum += array[combinations[index]];
 
 		}
 
@@ -77,5 +77,7 @@ function miniMaxSum(array) {
 rl.on('line', function(line) {
 
 	var array = line.split(' ').map(Number);
+
+
 
 });
