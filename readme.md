@@ -21,5 +21,5 @@ All of the solutions are ran with the Node.js runtime found [here](https://nodej
 The following command is used to execute each of the programs:
 
 ```bash
-node <program name>.py < input.txt
+node <program name>.js < input.txt
 ```
